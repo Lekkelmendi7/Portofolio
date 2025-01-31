@@ -15,6 +15,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -31,6 +32,7 @@
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -43,7 +45,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Lekë Kelmendi</h1>
-        <p class="section__text__p2">Software Engineer</p>
+        <p class="section__text__p2">Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -77,13 +79,14 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
+      <br/>
       <div class="section-container">
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img
                 src="./assets/experience.png"
-                alt="Experience icon"
+                alt="Skills icon"
                 class="icon"
               />
               <h3>Experience</h3>
@@ -103,7 +106,7 @@
             <p>
               I am Lekë Kelmendi, a passionate Full Stack Developer with a strong foundation in programming concepts, problem-solving, and building scalable applications. With expertise in both front-end and back-end development, I specialize in crafting modern, responsive, and user-friendly web applications.
 
-<br/><br/>I have a deep understanding of HTML5, CSS3, JavaScript, and responsive web development, with hands-on experience using Tailwind CSS for efficient styling. On the front-end, I am proficient in React and have worked with component-based architectures to enhance performance and maintainability. My experience extends to RESTful APIs, ensuring seamless communication between client-side and server-side applications.
+<br/><br/>I have a deep understanding of HTML5, CSS3, JavaScript, and responsive web development, with hands-on experience using Tailwind CSS and Bootstrap for efficient styling. On the front-end, I am proficient in React and have worked with component-based architectures to enhance performance and maintainability. My experience extends to RESTful APIs, ensuring seamless communication between client-side and server-side applications.
 
 <br/><br/>On the back-end, I work with .NET Core and Java, developing robust and scalable systems that handle complex business logic, authentication, and data management. I have also integrated Stripe for payment processing, WebSockets for real-time communication, and pagination for optimized data retrieval in my projects.
 
@@ -119,14 +122,38 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+      
     </section>
+    <br/>
+    <br/>
     <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cental Bank of Kosova <br/> March 2024 to September 2024</h2>
+            <div class="article-container">
+              <br/><br/>
+              <h1>Software Developer Intern</h1><br/>
+              <p>During my internship, I learned and applied the fundamentals of development with .NET Core, using ASP.NET Core to create web applications and APIs. I worked with Entity Framework Core for database management and implemented authentication and authorization systems using JWT tokens. I also developed functionalities commonly used in banking systems, such as secure transactions, data validation, and user account management. Additionally, I gained experience using Agile methodologies and collaborated on software development projects within a team.</p>
+            
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/cbkcert.jpeg')"
+                >
+                  Certificate
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section id="skills">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
@@ -185,8 +212,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -275,12 +302,6 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -347,12 +368,7 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+    
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -381,7 +397,8 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
